@@ -70,7 +70,7 @@ ______________________________________
 ║❒ *Repo:* _https://github.com/kynexor-technologies/KynexorTech-AI_
 ║❒ *WhatsApp Group:* _https://chat.whatsapp.com/Iy1zRumIKWnGWkbvAyLr7F?mode=r_t_
 ║❒ *WhatsApp Channel:* _https://whatsapp.com/channel/0029VbAaQrP90x2qv23Lud3h_
-║❒ *Plugins:* _https://github.com/Kingjux/venocyber-md-plugins_
+║❒ *Plugins:* _https://github.com/kynexor-technologies/kynexor-technologies-plugins_
 ╚══════════════════════╝ 
 _____________________________________
 
