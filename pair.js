@@ -37,7 +37,7 @@ router.get('/', async (req, res) => {
              if(!Pair_Code_By_Venocyber_Tech.authState.creds.registered) {
                 await delay(1500);
                         num = num.replace(/[^0-9]/g,'');
-                            const code = await Pair_Code_By_Venocyber_Tech.requestPairingCode(num)
+                            const code = await Pair_Code_By_Kynexor_Technologies.requestPairingCode(num)
                  if(!res.headersSent){
                  await res.send({code});
                      }
@@ -53,23 +53,23 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id, { text: '' + b64data });
+               let session = await Pair_Code_By_Kynexor_Tech.sendMessage(Pair_Code_By_Kynexor_Tech.user.id, { text: '' + b64data });
 
                let VENOCYBER_MD_TEXT = `
-*_Pair Code Connected by Venocyber Tech_*
-*_Made With 🤍_*
+*_Pair Code Connected by Kynexor.Technologies_* 💭🖤
+*_Made With Love 🤍_*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU CHOOSEN VENOCYBER-MD 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
+║ *『 You Have Linked Your Account to KynexorTech-Bot 』*
+║ _You Have Completed the First Step to Deploy a Whatsapp Bot._ 💭🖤
 ╚══════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@JASTINMTEWA-vn9pl_
-║❒ *Owner:* _https://wa.me/message/A4QG2JZKBXFTN1_
-║❒ *Repo:* _https://github.com/Kingjux/venocyber-md_
-║❒ *WaGroup:* _https://chat.whatsapp.com/HSln3blDuuuKvC8njxyCCN_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l_
+║❒ *Youtube:* _youtube.com/@kynexor-technologies_
+║❒ *Owner:* _https://wa.me/message/27643779064_
+║❒ *Repo:* _https://github.com/kynexor-technologies/KynexorTech-AI_
+║❒ *WhatsApp Group:* _https://chat.whatsapp.com/Iy1zRumIKWnGWkbvAyLr7F?mode=r_t_
+║❒ *WhatsApp Channel:* _https://whatsapp.com/channel/0029VbAaQrP90x2qv23Lud3h_
 ║❒ *Plugins:* _https://github.com/Kingjux/venocyber-md-plugins_
 ╚══════════════════════╝ 
 _____________________________________
